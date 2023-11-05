@@ -1,65 +1,100 @@
-# Phase 1 Project
+# Microsoft Movie Studio - Strategic Analysis
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+This document outlines the strategic recommendations for Microsoft's nascent movie studio based on a comprehensive analysis of the current cinematic landscape, genre profitability, audience engagement, and global market trends.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+## Table of Contents
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+- [Introduction](#introduction)
+- [Strategic Recommendations](#strategic-recommendations)
+  - [Genre Focus](#genre-focus)
+  - [Yearly Trends and Audience Engagement](#yearly-trends-and-audience-engagement)
+  - [Quality Across Genres](#quality-across-genres)
+  - [Leverage Popularity Indicators](#leverage-popularity-indicators)
+  - [Global Market Appeal](#global-market-appeal)
+  - [Multi-Year Consistency](#multi-year-consistency)
+  - [Balance Runtime and Engagement](#balance-runtime-and-engagement)
+  - [Optimize for Quality and Engagement](#optimize-for-quality-and-engagement)
+  - [Cross-Analysis of Data](#cross-analysis-of-data)
+  - [Targeted Genre Expansion](#targeted-genre-expansion)
+  - [Data Visualization Improvements](#data-visualization-improvements)
+- [Conclusion](#conclusion)
+- [Appendix](#appendix)
 
-## Project Overview
+## Introduction
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+The strategic recommendations provided herein are aimed at guiding Microsoft's Movie Studio in making informed decisions that could lead to both financial success and a strong audience rapport. With an emphasis on genres that show promising returns and an approach grounded in data analytics, the studio can effectively align its production strategies with market demands.
 
-### Business Problem
+## Strategic Recommendations
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+### Genre Focus
+- **Action, Adventure, and Sci-Fi**: Prioritize these genres for their proven track record in high revenue and audience engagement.
 
-### The Data
+### Yearly Trends and Audience Engagement
+- **Analyze 2016 and 2018**: Investigate the higher engagement and ratings to inform future content strategies.
 
-In the folder `zippedData` are movie datasets from:
+### Quality Across Genres
+- **Consistent Quality**: Focus on delivering high-quality content regardless of genre to maintain audience appreciation.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+### Leverage Popularity Indicators
+- **Numvotes as Success Metric**: Adopt strategies to enhance audience interaction which could lead to higher box office numbers.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+### Global Market Appeal
+- **Universal Content Design**: Develop content with global appeal to exploit the correlation between domestic and international success.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+### Multi-Year Consistency
+- **Long-term Genre Strategy**: Build a content strategy around the steady demand for popular genres.
 
-## Deliverables
+### Balance Runtime and Engagement
+- **Optimal Movie Length**: Find a runtime that maintains audience engagement without sacrificing quality.
 
-There are three deliverables for this project:
+### Optimize for Quality and Engagement
+- **Focus on High Ratings**: High-quality content tends to garner more engagement, leading to better financial performance.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+### Cross-Analysis of Data
+- **In-depth Genre and Ratings Analysis**: Utilize data analytics to understand the formula behind a movie's success.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+### Targeted Genre Expansion
+- **Explore Other Genres**: Consider investing in genres with strong engagement metrics for potential growth.
 
-### Key Points
+### Data Visualization Improvements
+- **Enhance Data Presentation**: Improve clarity in data visualizations to better represent associated metrics.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+## Conclusion
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+The insights derived from our analysis provide a critical foundation for decision-making at Microsoft's Movie Studio. With a focus on audience engagement, a commitment to quality, and a strategic approach to genre selection and global marketability, the studio is poised to make impactful entries into the film industry.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Appendix
 
-## Getting Started
+## Appendix: Dataset Descriptions
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+The `zippedData` folder contains several datasets sourced from various movie databases. These datasets have been instrumental in performing the analysis presented in this project. Below is a detailed description of each dataset and its significance.
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+### Datasets Overview
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+1. **IMDb Datasets**
+   - `imdb.title.basics.csv.gz`: Contains the primary details about movies listed on IMDb, including title, year of release, genre, and runtime.
+   - `imdb.title.ratings.csv.gz`: Holds the IMDb rating and the number of votes for movies, which are key indicators of a movie's popularity and audience engagement.
 
-## Project Submission and Review
+2. **Box Office Mojo Dataset**
+   - `bom.movie_gross.csv.gz`: Provides box office revenue data, both domestic and worldwide, which is essential for analyzing financial success.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+3. **Rotten Tomatoes Dataset**
+   - `rotten_tomatoes_movies.csv.gz`: Contains critic and audience scores from Rotten Tomatoes, along with other metadata such as director, cast, and synopsis.
+   - `rotten_tomatoes_reviews.csv.gz`: Features individual movie reviews, offering deeper insights into the critical reception of films.
 
-## Summary
+4. **TheMovieDB Dataset**
+   - `tmdb.movies.csv.gz`: Offers a range of data points including user ratings, popularity scores, and budget figures, sourced from TheMovieDB.
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+5. **The Numbers Dataset**
+   - `tn.movie_budgets.csv.gz`: Details production budgets and worldwide gross earnings, which help in the analysis of a movie's profitability.
+
+### External Links
+
+- [Box Office Mojo](https://www.boxofficemojo.com/)
+- [IMDb](https://www.imdb.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)
+- [TheMovieDB](https://www.themoviedb.org/)
+- [The Numbers](https://www.the-numbers.com/)
+
+The above datasets have been cleaned and compiled for this analysis to provide a comprehensive overview of the movie industry trends and financials.
+
